@@ -41,7 +41,7 @@ end
   end
 
  def list_songs
-    puts "What artist by name you like to list songs for?"
+    puts "What artist by name would you like to list songs for?"
     artist_input = gets.strip
     if artist = Artist.find_by_name(artist_input)
       artist.songs.each do |s,i|
