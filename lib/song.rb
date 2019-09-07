@@ -39,7 +39,6 @@ class Song
     
     def self.create_from_filename(filename)
       self.all.detect{|o| o.name == name}
-    
     end
       
     def self.destroy_all
