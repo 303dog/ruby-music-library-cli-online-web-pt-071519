@@ -34,11 +34,11 @@ end
   #  end
 #  end
 
- # def genres
+  def genres
     Genre.all.each.with_index(1) do |g, i|
       puts "#{i}. #{g}"
     end
-#  end
+  end
 
   def list_artist
     puts "What artist by name you like to list songs for?"
