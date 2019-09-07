@@ -38,6 +38,8 @@ class Song
     end
     
     def self.create_from_filename(filename)
+      
+      
      # self.all.detect{|o| o.name == name}
     end
       
