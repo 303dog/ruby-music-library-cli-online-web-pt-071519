@@ -9,7 +9,7 @@ class MusicLibraryController
     input = " "
     while input != "exit"
     puts "Welcome to your music library!"
-    puts "To list all of your songs, enter 'list songs'."
+    puts "To list all of your songs, enter22 'list songs'."
     input = gets.strip
     case input
     when "list songs"
