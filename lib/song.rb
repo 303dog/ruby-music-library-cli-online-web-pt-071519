@@ -35,6 +35,7 @@ class Song
       artist = Artist.find_or_create_by_name(artist_name)
       genre = Genre.find_or_create_by_name(genre_name)
       self.create(song_name, artist, genre)
+      binding.pry
     end
       
     def self.destroy_all
