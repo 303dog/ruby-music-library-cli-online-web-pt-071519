@@ -28,11 +28,11 @@ class MusicLibraryController
   end
 end
 
-#    def artists
- #   Artist.all.each.with_index(1) do |a, i|
+    def artists
+    Artist.all.each.with_index(1) do |a, i|
       puts "#{i}. #{a}"
-  #  end
-#  end
+    end
+  end
 
   def genres
     Genre.all.each.with_index(1) do |g, i|
