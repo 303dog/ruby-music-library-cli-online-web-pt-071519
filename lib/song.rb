@@ -37,8 +37,8 @@ class Song
       self.create(song_name, artist, genre)
     end
     
-     def self.create_from_filename(name)
-    self.all.detect{|o| o.name == name}
+     def self.create_from_filename(filename)
+    #self.all.detect{|o| o.name == name}
     
   end
       
