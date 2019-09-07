@@ -13,15 +13,12 @@ class MusicImporter
 
   end
   
-  #def import
-  #  files.each{|r| Song.create_from_filname(f)}
- # end
-#end 
-
- def import
-    files.each{|file| Song.new_by_}
+  def import
+    files.each{|f| Song.create_from_filname(f)}
   end
-end
+end 
+
+
   #def self.create_from_filename(filename)
     #song = self.new_from_filename(filename)
     #song.save
