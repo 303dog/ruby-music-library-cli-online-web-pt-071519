@@ -8,7 +8,7 @@ class MusicLibraryController
   def call 
     input = " "
     while input != "exit"
-    puts "Welcome to your personal Juke Box!"
+    puts "Welcome to your music library!"
     puts "What would you like to do next"
     input = gets.strip
     case input
