@@ -38,7 +38,7 @@ class Song
     end
     
     def self.create_from_filename(name)
-      self.name = name
+      self.name
       
      # self.all.detect{|o| o.name == name}
     end
